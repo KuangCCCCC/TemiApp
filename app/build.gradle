@@ -38,6 +38,7 @@ dependencies {
     implementation project(':CameraXLib')
     implementation libs.firebase.firestore
     implementation libs.firebase.database
+    implementation project(':TemiLib')
 
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit

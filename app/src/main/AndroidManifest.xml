@@ -40,6 +40,14 @@
         <activity android:name=".VideoPlaybackActivity">
             <!-- 如果需要，也可以加入其他設定 -->
         </activity>
+        <activity android:name=".PatrolActivity"
+            android:exported="true">
+            <!-- 可以設置為啟動活動，如果是其他頁面則跳轉到此活動 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <!-- Temi SDK Meta-Data -->
         <meta-data

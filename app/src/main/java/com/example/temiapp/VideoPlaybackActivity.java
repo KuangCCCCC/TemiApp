@@ -19,7 +19,7 @@ public class VideoPlaybackActivity extends AppCompatActivity {
         videoView = findViewById(R.id.videoView); // 影片視圖
 
         // 設定影片路徑
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.dystopia;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.people_1;
         videoView.setVideoPath(videoPath);
 
         // 加入控制器，提供播放控制
