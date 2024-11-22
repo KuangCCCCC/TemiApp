@@ -1,6 +1,6 @@
 package com.example.temiapp;
 
-import static android.content.ContentValues.TAG;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String TAG = "MainActivity";
     private Button navigateButton;
     private Button patrolButton;
 
