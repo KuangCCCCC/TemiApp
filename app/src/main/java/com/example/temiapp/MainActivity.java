@@ -13,8 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-    private Button navigateButton;
-    private Button patrolButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
