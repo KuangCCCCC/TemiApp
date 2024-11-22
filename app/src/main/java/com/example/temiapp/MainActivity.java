@@ -1,9 +1,14 @@
 package com.example.temiapp;
 
+import static android.content.ContentValues.TAG;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
         // 開始巡邏（假設你有一個可以啟動巡邏的地方）
         // 這裡可以調用 PatrolHelper 的方法來啟動巡邏
         // 例如：patrolHelper.startPatrolling();
+    }
+    // Lost button click handler (you need to implement this method)
+    public void onLostButtonClicked(View view) {
+        // Add the behavior when this button is clicked
+        Toast.makeText(this, "失敗按鈕被按下", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "失敗按鈕被按下");
     }
 }
 
